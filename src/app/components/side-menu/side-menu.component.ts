@@ -12,59 +12,59 @@ export class SideMenuComponent {
   menuOptionsList: AsideMenu[] = [
     {
       option: 'Conversaciones',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/chat.svg',
     },
     {
       option: 'Item de las Ofertas',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/cloud.svg',
     },
     {
       option: 'Empleados',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/empl.svg',
     },
     {
       option: 'Control y Seguridad',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/security.svg',
     },
     {
       option: 'Economía',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/eco.svg',
     },
     {
       option: 'Comercial',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/comercial.svg',
     },
     {
       option: 'Mercado',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/mercado.svg',
     },
     {
       option: 'Operación',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/operations.svg',
     },
     {
       option: 'Administración',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/manage_accounts.svg',
     },
     {
       option: 'Otros',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/group.svg',
     },
     {
       option: 'Jurídico',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/gavel.svg',
     },
     {
       option: 'Reportes',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/lab_profile.svg',
     },
     {
       option: 'Aplicaciones',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/cube.svg',
     },
     {
       option: 'Ajustes',
-      svgIcon: '../../../assets/apps.svg',
+      svgIcon: '../../../assets/settings.svg',
     },
   ];
 }
