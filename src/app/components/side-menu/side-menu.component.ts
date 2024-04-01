@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AsideMenu } from '../../interfaces/aside-menu';
+import { AsideMenu } from '@/app/interfaces/aside-menu';
 
 @Component({
   selector: 'app-side-menu',
@@ -12,59 +12,59 @@ export class SideMenuComponent {
   menuOptionsList: AsideMenu[] = [
     {
       option: 'Conversaciones',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Item de las Ofertas',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Empleados',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Control y Seguridad',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Economía',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Comercial',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Mercado',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Operación',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Administración',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Otros',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Jurídico',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Reportes',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Aplicaciones',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
     {
       option: 'Ajustes',
-      svgIcon: '',
+      svgIcon: '@/assets/apps.svg',
     },
   ];
 }
