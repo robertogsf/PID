@@ -1,13 +1,19 @@
 header {
-  display: grid;
-  grid-template-columns: 5% 10% 70%;
+  display: flex;
+  width: 100%;
+  justify-content: unsafe;
   align-items: center;
   background-color: var(--primary);
   color: var(--text);
   height: 3rem;
 }
 
+img {
+  margin: 0 1rem;
+}
+
 p {
+  margin: 0 1rem;
   text-align: left;
   font-size: 1.5rem;
   font-weight: 800;
@@ -15,12 +21,13 @@ p {
 
 ul {
   display: flex;
+  width: 65%;
+  margin-left: 1rem;
   justify-content: space-between;
   list-style: none;
 }
 
 li {
-  position: relative;
   font-size: 1.05rem;
   transition: all 0.3s ease;
 }
@@ -38,7 +45,7 @@ li:after {
   width: 0;
   height: 1px;
   background-color: var(--text);
-  transition: width 0.3 ease;
+  transition: width 0.3s ease;
 }
 
 li:hover::after {
