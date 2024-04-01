@@ -1,1 +1,8 @@
-<aside></aside>
+<aside>
+  @for (item of menuOptionsList; track $index) {
+  <div class="menu-item">
+    <img [src]="item.svgIcon" [alt]="item.option" />
+    <p>{{ item.option }}</p>
+  </div>
+  }
+</aside>
