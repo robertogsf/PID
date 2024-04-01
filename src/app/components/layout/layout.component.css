@@ -6,12 +6,12 @@
     "header header header"
     "aside main main";
 }
-header {
+app-header {
   grid-area: header;
   width: 100%;
 }
 
-aside {
+app-side-menu {
   grid-area: aside;
 }
 
