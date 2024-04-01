@@ -1,0 +1,20 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr; /* Ajusta los valores acorde al tamanno en pantalla*/
+  grid-template-rows: auto; /* Asegura que las filas se ajusten al contenido */
+  grid-template-areas:
+    "header header header"
+    "aside main main";
+}
+header {
+  grid-area: header;
+  width: 100%;
+}
+
+aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
