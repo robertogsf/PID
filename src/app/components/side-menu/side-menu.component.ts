@@ -4,9 +4,9 @@ import { AsideMenu } from '@/app/interfaces/aside-menu';
 @Component({
   selector: 'app-side-menu',
   standalone: true,
-  imports: [],
   templateUrl: './side-menu.component.html',
   styleUrl: './side-menu.component.css',
+  imports: [],
 })
 export class SideMenuComponent {
   menuOptionsList: AsideMenu[] = [
