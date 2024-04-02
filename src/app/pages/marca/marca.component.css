@@ -7,6 +7,10 @@ span {
   font-weight: 400;
   color: gray;
 }
+form {
+  display: flex;
+  flex-direction: column;
+}
 .buttons-container {
   display: flex;
   align-items: center;
@@ -38,14 +42,9 @@ span {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 12px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
 .form-container {
-  width: 100%;
-  border-top: 1px solid hsl(0, 0%, 60%);
-  padding: 3rem;
-  display: flex;
-  justify-content: center;
-}
-.form-container form {
+  align-self: center;
   font-size: 1.1rem;
   width: 700px;
   height: 400px;
@@ -56,32 +55,32 @@ span {
   box-shadow: 0 12px 16px 0 rgba(85, 33, 22, 0.5),
     0 20px 60px 0 rgba(0, 0, 0, 0.19);
 }
-.form-container form div {
+.form-container div {
   display: flex;
   flex-direction: column;
 }
 
-.form-container form div:first-child {
+.form-container div:first-child {
   border-right: 2px solid var(--primary);
   height: 37%;
 }
 
-.form-container form div:last-child {
+.form-container div:last-child {
   margin-left: 1rem;
 }
 
-.form-container form div * {
+.form-container div * {
   margin-top: 20px;
   padding: 0.2rem;
 }
 
-.form-container form input {
+.form-container input {
   background-color: var(--text-lighter);
   border-radius: 3px;
   border: 2px solid gray;
 }
 
-.form-container form input:focus-visible {
+.form-container input:focus-visible {
   border: 2px solid var(--primary);
   outline: none;
 }

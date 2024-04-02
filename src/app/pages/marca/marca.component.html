@@ -1,17 +1,30 @@
 <h2>Marca <span>/ Nuevo</span></h2>
-<div class="buttons-container">
-  <button>Guardar</button>
-  <button>Descartar</button>
-</div>
-<div class="form-container">
-  <form>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="buttons-container">
+    <button type="submit">Guardar</button>
+    <button (click)="resetForm()">Descartar</button>
+  </div>
+  <div class="form-container">
     <div>
-      <label for="den">Denominación</label>
+      <label for="denom">Denominación</label>
       <label for="abr">Abreviatura</label>
     </div>
     <div>
-      <input type="text" id="den" name="den" />
-      <input type="text" id="abr" name="abr" />
+      <input
+        formControlName="denom"
+        type="text"
+        id="denom"
+        name="denom"
+        autocomplete="off"
+        #denomInput
+      />
+      <input
+        formControlName="abr"
+        type="text"
+        id="abr"
+        name="abr"
+        autocomplete="off"
+      />
     </div>
-  </form>
-</div>
+  </div>
+</form>
