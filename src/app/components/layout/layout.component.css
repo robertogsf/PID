@@ -16,5 +16,6 @@ app-side-menu {
 }
 
 main {
+  padding: 1rem;
   grid-area: main;
 }
